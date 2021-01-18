@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/booost/boilerplates/cypress.git"
+  },
+  "author": "Danislav Kamenov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/booost/boilerplates/cypress/issues"
+  },
+  "homepage": "https://gitlab.com/booost/boilerplates/cypress#readme"
+}
