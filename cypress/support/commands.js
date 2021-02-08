@@ -23,3 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+Cypress.Commands.add('getContactForm', () => {
+  cy.get('[data-cy=contact-btn]').click();
+  cy.scrollTo(0, 1000);
+});
